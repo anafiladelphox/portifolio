@@ -1,0 +1,53 @@
+body {
+    margin: 0px 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eeee;
+    height: 80px;
+    padding: 0px 40px;
+}
+
+header img {
+    height: 80px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+
+header button {
+  padding: 8px 18px;
+  border-radius: 8px;
+  background: #083a27;
+  color: #fff;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.capa {
+    width: 1429px;
+    height: 650px;
+}
